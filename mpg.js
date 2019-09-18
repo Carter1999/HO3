@@ -1,9 +1,7 @@
-<script>
-     var floatMiles, floatGallons, floatMpg;
-     miles = prompt ("Enter miles driven");
-     miles = parseFloat (miles);
-     gallons = prompt("Enter gallons of gas used");
-     gallons = parseFloat (gallons);
-     mpg = (miles/gallons);
-     alert("Miles per gallon = " + mpg);
-   </script>
+var floatMiles, floatGallons, floatMpg;
+     floatMiles = prompt ("Enter miles driven");
+     floatMiles = parseFloat (floatMiles);
+     floatGallons = prompt("Enter gallons of gas used");
+     floatGallons = parseFloat (floatGallons);
+     floatMpg = (floatMiles/floatGallons);
+     alert("Miles per gallon = " + floatMpg);
